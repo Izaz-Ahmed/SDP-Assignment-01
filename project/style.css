@@ -1,0 +1,660 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body
+{
+    font-family: 'Montserrat';
+}
+
+.navbar
+{
+    background-color: #1a187a;
+}
+.navbar-brand img
+{
+    height: 40px;
+    width: auto;
+}
+.nav-link
+{
+    color: #FFF;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.navbar-nav
+{
+    align-items: center;
+}
+
+.navbar-nav li
+{
+    margin-left: 40px;
+}
+
+.searchbar input
+{
+    width: 387px;
+    height: 56px;
+    padding: 16px;
+    /*  margin: 8px; */
+}
+
+
+/* #################### CAROUSAL START HERE ##################### */
+
+
+.carousel-item 
+{
+    position: relative;
+    height:700px; 
+    /* height: 100vh; */
+    background-image: url("./img/background.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.slide-content
+{
+    width: 50%;
+    height: 55%;
+}
+.slide_img img
+{
+    /* width: 50%;
+    height: 55%; */
+
+    width: auto;
+    height: 700px;
+}
+
+.slide-content button
+{
+    color: var(--Main-White, #FFF);
+text-align: center;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 900;
+line-height: 24px; /* 150% */
+
+border-radius: 6px;
+border: 1px solid var(--Main-White, #FFF);
+background: #171495;
+}
+
+
+
+/* #################### SECTION -01 STARTS FROM HERE ##################### */
+
+
+/* wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww */
+
+.temp-section1
+{
+    width: auto;
+}
+
+/* UPPER PART */
+
+/* .temp-left
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: yellow;
+} */
+
+/* .temp-left-content
+{
+    width: 25%;
+} */
+
+
+
+.temp-left-img img
+{
+    width: 300px;
+}
+
+.temp-left-content h1
+{
+    color: #000;
+    font-family: 'Montserrat';
+    font-size: 49px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 40px; 
+}
+.temp-left-content p
+{
+    color: #909090;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+/* LOWER PART */
+
+.temp-left-2
+{
+
+    background-color: #ADC2D7;
+
+}
+
+
+
+
+.temp-left-2-img img
+{
+    width: 200px;
+    padding: 20px;
+    
+}
+
+.temp-left-2-content h1
+{
+    color: #000;
+    font-family: 'Montserrat';
+    font-size: 29px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 40px;
+}
+.temp-left-2-content p
+{
+    color: #FFF;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    
+}
+
+
+/* RIGHT SECTION */
+.temp-right
+{
+    background-color: #EDEDED;;
+    width: 700px;
+    height: auto;
+}
+
+
+.temp-right-content h1
+{
+    color: #000;
+    font-family: 'Montserrat';
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: 56px;
+}
+.temp-right-content p
+{
+    color: #909090;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    width: 350px;
+    margin: auto;
+}
+
+.temp-right-img img
+{
+    width: 300px;
+    /* height: 200px; */
+    flex-shrink: 0;
+}
+
+.temp-right-content button
+{
+    padding: 7px 20px;
+    justify-content: center;
+    align-items: center;
+    background: #27448E;
+    color: white;
+}
+
+
+
+@media all and (max-width: 695px)
+{
+    .temp-right
+    {
+        /* width: auto; */
+        text-align: left;
+       
+    }
+}
+
+@media all and (max-width: 767px)
+{
+    .temp-section1
+    {
+        /* margin: auto; */
+    }
+    .temp-left-all div
+    {
+        /* margin: auto; */
+
+    }
+    .temp-right
+    {
+        width: 800px;
+        height: auto;
+        /* text-align: center; */
+        margin: auto;
+    }
+    
+}
+/*WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW*/
+
+
+
+
+
+/* ^^^^^^^^^^^^^^^^^^^ SECTION -02 (product) STARTS FROM HERE ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
+.product-section
+{
+    background-color: gray;
+    height: 350px;
+}
+
+.product
+{
+    /* width: 100%; */
+    height: 95px;
+    margin: 12px;
+    text-align: center;
+
+    border-radius: 15px;
+    background: #EDEDED;
+    padding-top: 15px;
+}
+
+.product p
+{
+    text-align: center;
+    font-family: 'Montserrat';
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+}
+
+.product img
+{
+    width: 38px;
+    height: 38px;
+    flex-shrink: 0;
+}
+
+.section-2-header
+{
+    font-family: 'Montserrat';
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.icon img
+{
+    height: 20px;
+    width: 20px;
+}
+
+
+/* ^^^^^^^^^^^^^^^^^^^ CARD-SECTION (arrival) STARTS FROM HERE ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
+.goods
+{
+    text-align: center;
+    margin: auto;
+
+}
+
+.goods div
+{
+    background-color: #F6F6F6;
+    border: none;
+}
+
+
+
+
+/* ####################  LAST SECTION STARTS FROM HERE ##################### */
+
+.last-section
+{
+    background-color: #958AD4;
+    /* height: 500px; */
+    margin-top: 20px;
+}
+
+.three-parts
+{
+    /* height: 500px; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.three-parts img
+{
+    width: 100%;
+    height: 400px;
+}
+
+.middle-part h1
+{
+    color: #25177B;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 72px; /* 100% */
+    letter-spacing: -0.72px;
+}
+.middle-part span
+{
+    color: white;
+}
+.middle-part p
+{
+    color: #FFF;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    width: 383px;
+}
+
+
+
+/* ####################  FOOTER SECTION STARTS FROM HERE ##################### */
+
+.footer
+{
+    background-color: #0e071b;
+    color: #CFCFCF;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 32px;
+
+    padding: 100px;
+}
+
+.footer h5
+{
+    /* color: var(--Main-White, #FFF); */
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 100;
+    line-height: 16px; /* 100% */
+}
+
+.footer img
+{
+    height: 40px;
+    width: auto;
+}
+
+.footer i
+{
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+
+@media all and (max-width: 1368px)
+{
+    .three-parts img
+    {
+        width: 85%;
+        height: 300px;
+    }
+
+    .middle-part h1
+    {
+        font-size: 53px;
+    }
+    
+    .middle-part p
+    {
+        width: 328;
+    }
+}
+
+@media all and (max-width: 1121px)
+{
+    
+    .three-parts img
+    {
+        width: 65%;
+        height: 200px;
+    }
+
+    .middle-part h1
+    {
+        font-size: 33px;
+    }
+    
+    .middle-part p
+    {
+        width: 280px;
+    }
+}
+
+@media all and (max-width: 772px)
+{
+    .three-parts
+    {
+        display: block;
+        text-align: center;
+    }
+    .three-parts img
+    {
+        width: 50%;
+        /* height: 300px; */
+    }
+
+
+    .middle-part h1
+    {
+        font-size: 43px;
+    }
+    
+    .middle-part p
+    {
+        width: 280px;
+        margin: auto;
+    }
+}
+
+@media all and (min-width: 576px)
+{
+    .product
+    {
+        height: 95px;
+        margin: 12px;
+        text-align: center;
+
+        border-radius: 15px;
+        background: #EDEDED;
+        padding-top: 15px;
+    }
+    .goods div
+    {
+        margin-top: 20px;
+    }
+    
+}
+@media all and (max-width: 575px)
+{
+    .product-section
+    {
+        height: 800px;
+        width: auto;
+        margin-top: 30px;
+    }
+    .product
+    {
+        height: 95px;
+        margin: 12px;
+        text-align: center;
+
+        border-radius: 15px;
+        background: #EDEDED;
+        padding-top: 15px;
+    }
+    
+    .goods div
+    {
+        margin-top: 20px;
+    }
+}
+
+
+@media all and (max-width: 767px)
+{
+    .slide-content
+    {
+        margin: auto;
+        text-align: center;
+        padding-top: 30px;
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+
+        
+        height: 25%;
+    }
+    .slide-content h1
+    {
+        font-size: 30px;
+    }
+    .slide-content-p
+    {
+        font-size: 8px;
+    }
+    .slide-content button
+    {
+        display: none;
+    }
+    .carousel-item
+    {
+        height: 632px;
+        flex-shrink: 0;
+    }
+    
+
+    .slide_img
+    {
+        margin: auto;
+        width: 268px;
+        height: 661px;
+        flex-shrink: 0;
+        margin-top: 0px;
+    }
+
+
+    /* #################### SECTION -01 STARTS FROM HERE ##################### */
+    .right-section
+    {
+        /* display: block; */
+        justify-content: center;
+        align-items: center;
+        /* margin: auto; */
+        margin-top: 20px;
+    }
+    .right-section-content
+    {
+        display: block;
+        width: 70%;
+        justify-content: center;
+        align-items: center;
+
+        margin: auto;
+        
+    }
+
+    .right-section-img img
+    {
+        width: 100%;
+        height: 50%;
+        padding-top: 30px;
+    }
+
+
+    .section1
+    {
+        overflow: hidden;
+        display: block;
+    }
+
+    /* #################### SECTION -01 (upper left section) STARTS FROM HERE ##################### */
+
+    .upper-left-section
+    {
+        width: 100%;
+        height: 50vh;
+    }
+
+    .upper-left-section-img img
+    {
+        width: 150px;
+        height: 200px;
+    }
+
+    /* #################### SECTION -01 (lower left section) STARTS FROM HERE ##################### */
+
+    .upper-left-section
+    {
+    
+        display: block;
+        /* overflow: hidden; */
+        /* justify-content: center; */
+        /* align-items: center; */
+    
+        border: 3px solid green;
+        width: 50%;
+        height: 400px;
+        background-color: #ededed;
+    
+        position: relative;
+        /* top: 0; */
+        margin: auto;
+        /* height: 50%; */
+    }
+
+    /* #################### SECTION -01 (right section) STARTS FROM HERE ##################### */
+
+    .lower-left-section
+    {
+        position: relative;
+    }
+
+    
+}
